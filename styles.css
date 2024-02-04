@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header {
+    background-color: #4867d6;
+    height: 400px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    color: #fff;
+}
+
+header .Basliq h1 { 
+    font-size: 60px;
+}
+
+header .Basliq {
+    margin-bottom: 150px;
+}
+
+main section {
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+}
+
+main section .Conta {
+    bottom: 150px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 35px;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 1250px;
+}
+
+main section .Conta .Box {
+    width: 380px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 550px;
+}
+
+main section .Conta .Box .ImgBox {
+    width: 370px;
+    height: 400px;
+}
+
+main section .Conta .Box .ImgBox img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+main section .Conta .Box .TextBox {
+    background-color: #fff;
+    width: 250px;
+    height: 180px;
+    position: relative;
+    bottom: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+main section .Conta .Box .TextBox .IconBox {
+    display: flex;
+    gap: 10px;
+}
+
+/* Responsive design start */
+
+@media(max-width:450px){
+    header .Basliq h1 {
+        font-size: 25px;
+    }
+    
+}
+
+/* Responsive design end */
